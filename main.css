@@ -2,20 +2,9 @@ header{
 	text-align: center;
 	background-color: #a7d2cb
 	}
-h1{
-	font-size: 70px;
-	font-family: "Pacifico";
-	opacity: 0.8;
-	}
-ul{
-	padding: 10px;
-	}
 li{
 	display: inline;
 	padding: 0px 10px 0px 10px;
-	}
-a{
-	color: black;
 	}
 article{
 	max-width: 650px;
@@ -23,7 +12,6 @@ article{
 	margin: 0 auto;
 	}
 p{
-	line-height: 24px;
 	text-align: justify;
 	}
  @media (max-width: 500px){
@@ -35,7 +23,7 @@ p{
         padding: 5px;
       } 
     } 
-.first{
+.about{
 	text-align: left;
 	}
 .second{
