@@ -23,12 +23,12 @@ p{
         padding: 5px;
       } 
     } 
-.about{
+#about{
 	text-align: left;
 	}
-.second{
+#second{
 	text-align: right;
 	}
-.third{
+#third{
 	text-align: left;
 	}
