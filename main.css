@@ -5,14 +5,13 @@ header{
 #header_image{
 	max-width: 700px;
 	margin: 40px 0 0 0;
-
 	}
-ul{
+#navbar{
 	padding: 10px;
 	background-color: white;
 	opacity: 0.7;
 	}
-li{
+#navbar li{
 	display: inline;
 	padding: 0px 10px 0px 10px;
 	opacity: 
@@ -35,8 +34,11 @@ p{
 #about{
 	text-align: left;
 	}
-#second{
+#second_header{
 	text-align: right;
+	}
+#second{
+	text-align: justify left;
 	}
 #third{
 	text-align: left;
@@ -44,7 +46,11 @@ p{
 .food_images{
 	max-height: 250px;
 	padding: 10px 30px 10px 30px;
+	}
+#tips li{
+	text-align: justify;
 	}	
+
  @media (max-width: 500px){
       #header_image {
       	width: 380px;
