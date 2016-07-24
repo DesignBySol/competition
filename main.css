@@ -13,12 +13,19 @@ header{
 	}
 #navbar li{
 	display: inline;
-	padding: 0px 10px 0px 10px;
-	opacity: 
+	padding: 0px 20px 0px 20px;
 	}
-a{
+a:link, a:visited {
 	color: black;
+	text-decoration: none;
+	opacity: 0.75;
 	}
+a:hover, a:active {
+	text-decoration: underline;
+	opacity: 1;
+	}
+
+
 body{
 	font-family: pt sans;
 	line-height: 24px;
@@ -50,6 +57,13 @@ p{
 #tips li{
 	text-align: justify;
 	}	
+
+
+.twitter-timeline{
+	width: 50px;
+	}
+
+
 
  @media (max-width: 500px){
       #header_image {
