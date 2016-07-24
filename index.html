@@ -4,19 +4,22 @@
     	<title>Kitchen Tricks</title>
     	<script src="jquery.js"></script>
     	<link rel="stylesheet" type="text/css" href="main.css">
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
     </head>
     <body>
         <header>
-        	<img src="graphics/Logo.png">
-    		<ul>
+        	<img src="graphics/Logo.png" id="header_image">
+    		<ul id="navbar">
     			<li><a href="#">About</a></li>  
-    			<li><a href="#">Kitchen Tricks</a></li> 
-    			<li><a href="#">More</a></li> 
+    			<li><a href="#">Handy Tips</a></li> 
+    			<li><a href="#">Recipes</a></li> 
             </ul>
     	</header>
         <div>
             <article>
                 <p>Choose a food from the list below and learn how to check if that food is still safe to eat using a simple kitchen trick. Let's have some fun!</p>
+                <img src="graphics/cheese.png" class="food_images">
+                <img src="graphics/egg.png" class="food_images">
             </article>
         </div>
     	<div id="about">
@@ -32,14 +35,11 @@
     	<div id="second">
     		<article>
     			<h2>Other handy tips</h2>
-    			<ul>
-             ...
-                </ul>
     		</article>
     	</div>
     	<div id="third">
     		<article>
-    			<h2>Leftover recipes</h2>
+    			<h2>Recipes</h2>
     			<p>Here are some ideas for using up food that has passed its best:</p>
                 <p><b>Stale bread:</b> Make breadcrumbs, french toast, bread &amp; butter pudding, croutons, garlic bread.</p>
                 <p><b>Milk/yogurt:</b> Stick whiffy dairy into a pancake mix as the heat will sterilise everything and you won't taste the difference!</p>

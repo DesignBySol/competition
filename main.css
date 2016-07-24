@@ -1,28 +1,37 @@
 header{
 	text-align: center;
-	background-color: #a7d2cb
+	background-color: #a7d2c8;
+	}
+#header_image{
+	max-width: 700px;
+	margin: 40px 0 0 0;
+
+	}
+ul{
+	padding: 10px;
+	background-color: white;
+	opacity: 0.7;
 	}
 li{
 	display: inline;
 	padding: 0px 10px 0px 10px;
+	opacity: 
+	}
+a{
+	color: black;
+	}
+body{
+	font-family: pt sans;
+	line-height: 24px;
 	}
 article{
-	max-width: 650px;
-	padding: 20px;
+	max-width: 600px;
+	padding: 5px;
 	margin: 0 auto;
 	}
 p{
 	text-align: justify;
 	}
- @media (max-width: 500px){
-      h1 {
-        font-size: 36px;
-      }
-      li {
-        display: block;
-        padding: 5px;
-      } 
-    } 
 #about{
 	text-align: left;
 	}
@@ -32,3 +41,19 @@ p{
 #third{
 	text-align: left;
 	}
+.food_images{
+	max-height: 250px;
+	padding: 10px 30px 10px 30px;
+	}	
+ @media (max-width: 500px){
+      #header_image {
+      	width: 380px;
+      }
+      li {
+        display: block;
+        padding: 5px;
+      } 
+      body{
+		line-height: 18px;
+		}
+    } 
