@@ -17,7 +17,7 @@ else if (cat1=="d"){
 	alert("Black mold, or Aspergillius niger, can make you sick so throw it away just to be sure!");
 }  
 else {
-	alert("Pink, Red Purple mold, or Fusarium and Gibberella- Eek, NOT good! Especially if this is slimy don’t breathe this in and get rid of the cheese ASAP.");
+	alert("Pink, Red Purple mold, or Fusarium and Gibberella- Eek, NOT good! Especially if this is slimy do NOT breathe this in and get rid of the cheese ASAP.");
 }    
 });
 });
