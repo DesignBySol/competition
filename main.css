@@ -125,3 +125,6 @@ display: none;
 display: none;
 font-style: italic;
 }
+#social_buttons {
+	text-align: center;
+}
