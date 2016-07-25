@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
     	<script src="jquery.js"></script>
+        <script type="text/javascript" src="/js/jquery.js"></script>
+        <script type="text/javascript" src="quiz.js"></script>
+
     	<link rel="stylesheet" type="text/css" href="main.css">
         <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
     </head>
@@ -21,8 +24,8 @@
         <div>
             <article>
                 <p>Choose a food from the list below and learn how to check if that food is still safe to eat using a simple kitchen trick. Let's have some fun!</p>
-                <img src="graphics/cheese.png" class="food_images">
-                <img src="graphics/egg.png" class="food_images">
+                <a class="jumper" href="#cheeses"><img src="graphics/cheese.png" class="food_images"></a> 
+                <a class="jumper" href="#eggs"><img src="graphics/egg.png" class="food_images"></a>
             </article>
         </div>
     	<div id="about">
@@ -35,6 +38,32 @@
                 <p>This is why we made this handy little tool, so you can learn how to tell if your food is off or not yourself and save yourself up to &pound;700 a year (the average amount of good food a family wastes) and be kinder to the awesome place that we call home.</p>
     		</article>
     	</div>
+        <div id="cheeses">
+        <article>
+            <h2>Cheeses<h2>
+            <p class="question">What kind of mold on cheese is ok?</p>
+            <ul class="answers">
+                <input type="radio" name="q1" value="a" id="q1a"><label for="q1a"><img src="graphics/whitemold.png" id="mold_image"></label><br/>
+                <input type="radio" name="q1" value="b" id="q1b"><label for="q1b"><img src="graphics/brownmold.png" id="mold_image"></label><br/>
+                <input type="radio" name="q1" value="c" id="q1c"><label for="q1c"><img src="graphics/turquoisemold.png" id="mold_image"></label><br/>
+                <input type="radio" name="q1" value="d" id="q1d"><label for="q1d"><img src="graphics/blackmold.png" id="mold_image"></label><br/>
+                <input type="radio" name="q1" value="e" id="q1d"><label for="q1d"><img src="graphics/pinkmold.png" id="mold_image"></label><br/>
+            </ul>
+            <div id="results">
+            Show me the answers!
+            </div>
+            <div id="category1">
+                <p><strong>Question 1:</strong> The correct answer is the <strong>Answer 1</strong>.</p>
+            </div>
+        </article>
+
+        <div id="eggs">
+        <article>
+            <h2>Eggs<h2>
+            <img src="graphics/egg.gif" class="food_images">
+        </article>
+        </div>
+
     	<div id="second">
             <article>
                 <div id="second_header"><h2>Other handy tips</h2></div>
