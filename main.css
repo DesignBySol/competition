@@ -29,9 +29,11 @@ a:hover, a:active {
 	opacity: 1;
 	}
 body{
-	font-family: pt sans;
-	line-height: 24px;
+	min-height: 100%;			
+  	margin: 0;			
+  	min-width: 240px;       
 	}
+
 article{
 	max-width: 600px;
 	padding: 5px;
@@ -60,10 +62,6 @@ p{
 	text-align: justify;
 	}	
 
-
-.twitter-timeline{
-	width: 50px;
-	}
 
 .answers li { 
 list-style: upper-alpha; 
