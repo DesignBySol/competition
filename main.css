@@ -105,6 +105,7 @@ display: none;
 display: none;
 font-style: italic;
 }
+<<<<<<< HEAD
 
 @media (max-width: 500px){
       #header_image {
@@ -118,3 +119,8 @@ font-style: italic;
 		line-height: 18px;
 		}
     } 
+=======
+#social_buttons {
+	text-align: center;
+}
+>>>>>>> origin/master
