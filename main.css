@@ -6,7 +6,14 @@ header{
 	max-width: 700px;
 	margin: 40px 0 25px 0;
 	}
+.social_text{
+	padding: 10px 0 10px 0;
+	text-align: left;
+	}
 
+.button{
+	padding: 0 2px 0 2px;
+	}
 #mold_image{
 	max-width: 100px;
 }
@@ -32,7 +39,22 @@ body{
 	min-height: 100%;			
   	margin: 0;			
   	min-width: 240px; 
-  	line-height: 22px;      
+  	line-height: 22px; 
+  	padding-bottom: 50px;     
+	}
+h2{
+	line-height: 36px;
+	padding: 0 0 8px 0;
+	}
+h4{
+	line-height: 26px;
+	}
+#left{
+	padding: 20px 0 0 0;
+
+	}
+#right{
+	padding: 20px 0 0 0;
 	}
 
 article{
@@ -47,7 +69,7 @@ p{
 	text-align: left;
 	}
 #second_header{
-	text-align: right;
+	text-align: left;
 	}
 #second{
 	text-align: justify left;
@@ -62,7 +84,6 @@ p{
 #tips li{
 	text-align: justify;
 	}	
-
 .answers li { 
 list-style: upper-alpha; 
 } 
@@ -105,21 +126,7 @@ display: none;
 display: none;
 font-style: italic;
 }
-<<<<<<< HEAD
 
-@media (max-width: 500px){
-      #header_image {
-      	width: 380px;
-      }
-      li {
-        display: block;
-        padding: 5px;
-      } 
-      body{
-		line-height: 18px;
-		}
-    } 
-    
 /* Dropdown Button */
 .dropbtn {
     background-color: #4CAF50;
@@ -133,6 +140,7 @@ font-style: italic;
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: relative;
+    padding: 0px 20px 0px 20px;
     display: inline-block;
 }
 
@@ -140,6 +148,7 @@ font-style: italic;
 .dropdown-content {
     display: none;
     position: absolute;
+    padding: 10px 5px 10px 5px;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -166,3 +175,42 @@ font-style: italic;
     background-color: #3e8e41;
 }
 
+.col-xs-15,
+.col-sm-15,
+.col-md-15{
+    position: relative;
+    min-height: 1px;
+
+    padding: 20px 2px 20px 0px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (max-width: 500px){
+      #header_image {
+      	width: 380px;
+      }
+      li {
+        display: block;
+        padding: 5px;
+      } 
+      body{
+		line-height: 18px;
+		}
+    } 
+    
