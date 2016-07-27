@@ -14,6 +14,12 @@ header{
 .button{
 	padding: 0 2px 0 2px;
 	}
+#egg_gif{
+	padding: 0 0 0 145px;
+	}
+#egg_text{
+	padding: 30px 0 0 0;
+	}
 #mold_image{
 	max-width: 100px;
 }
